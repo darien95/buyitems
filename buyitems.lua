@@ -564,7 +564,9 @@ local pets = {
 "woodland_2022_red_fox",  
 "woodland_2022_salamander",  
 "cracked_egg"
+
 }
+
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local BuyItem = ReplicatedStorage.API:FindFirstChild("ShopAPI/BuyItem")
 for _, pets in ipairs(pets) do
